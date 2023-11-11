@@ -17,6 +17,21 @@ Configuration
     accompanies the DLL in its directory.
     See the default INI file for the auto-documentation.
 
+    For two versions of the DLL that exist, 32 and 64-bit,
+    here are files that will be used:
+
+		32-bit version:
+
+			reg_to_file_tune_dll_32.dll
+			reg_to_file_tune_dll.ini
+			reg_to_file_tune_dll.reg.ini
+
+		64-bit version:
+
+			reg_to_file_tune_dll_64.dll
+			reg_to_file_tune_dll.ini
+			reg_to_file_tune_dll.reg.ini
+
 
 Database INI
 ----------------------
