@@ -9,6 +9,9 @@ Reg To File Tune DLL
 	startup, and what registry keys it redirects should be specified
 	in its INI configuration file.
 
+	Enables creating of portable versions of applications that
+	store configuration in Windows Registry.
+
 
 Configuration
 ---------------------
@@ -49,10 +52,10 @@ Installation
 	Possible ways to add the DLL to the target application:
 
 		* Use a third party application to add the DLL to the target
-		  executable import table.
+		  executable's import table.
 
 		* Use a launcher application that starts the executable and
-		  auto-loads the DLL on its startup.
+		  auto-loads the DLL.
 
 	Example applications:
 
