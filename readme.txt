@@ -9,8 +9,9 @@ Reg To File Tune DLL
 	startup, and what registry keys it redirects should be specified
 	in its INI configuration file.
 
-	Enables creating of portable versions of applications that
-	store configuration in Windows Registry.
+	Enables creating of portable versions of applications that now
+	store their configuration in a disk file, rather than in
+	Windows Registry.
 
 
 Configuration
@@ -64,6 +65,7 @@ Installation
 
 		CFF Explorer
 		https://ntcore.com/?page_id=388
+
 
 Build Instructions
 ---------------------------
