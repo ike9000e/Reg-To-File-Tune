@@ -65,6 +65,37 @@ Installation
 		CFF Explorer
 		https://ntcore.com/?page_id=388
 
+Build Instructions
+---------------------------
+
+	Compiler command-line arguments
+
+		/EHsc
+		/O1
+		/FS
+		/MP1
+		/GL-
+		/MT
+		/D WIN32_LEAN_AND_MEAN
+		/D _WIN32_WINNT=0x501
+		/D _USING_V110_SDK71_
+		/D NOMINMAX
+
+	Linker command-line arguments
+
+		detours64.lib
+		kernel32.lib
+		user32.lib
+		comdlg32.lib
+		winmm.lib
+		advapi32.lib
+		shell32.lib
+		gdi32.lib
+		psapi.lib
+		dbghelp.lib
+		/DEF:.\project_dll.def
+		/MACHINE:X64
+
 
 About
 -------------
