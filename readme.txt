@@ -2,12 +2,12 @@
 Reg To File Tune DLL
 =================================
 
-	Redirects registry configurations that the application creates into a disk file.
-	It's in the form of a dynamic link library, DLL.
+	Redirects registry configurations that the application creates
+	into a disk file. It's in the form of a dynamic link library, DLL.
 
-	It is intended to be attached to the target executable on its startup,
-	and what registry keys it redirects should be specified in its INI
-	configuration file.
+	It is intended to be attached to the target executable on its
+	startup, and what registry keys it redirects should be specified
+	in its INI configuration file.
 
 
 Configuration
@@ -21,8 +21,8 @@ Configuration
 Database INI
 ----------------------
 
-	Once configured and attached, there will be another INI file created, that
-	contains the redirected registry settings.
+	Once configured and attached, there will be another INI file
+	created, that contains the redirected registry settings.
 	This file will be created in the same directory the DLL file is in
 	and will be named "reg_to_file_tune_dll.reg.ini"
 	(ie. it'll use the ".reg.ini" suffix).
